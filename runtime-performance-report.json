@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-23T08:05:42.010Z",
+  "overallPassed": true,
+  "testResults": {
+    "passed": true,
+    "failures": [],
+    "metrics": {}
+  },
+  "codeSplitting": {
+    "passed": true,
+    "message": "Code splitting is active",
+    "optimizations": {
+      "packageImports": true,
+      "experimental": true
+    },
+    "recommendations": []
+  },
+  "thresholds": {
+    "COMPONENT_RENDER_MAX": 16,
+    "COMPLEX_RENDER_MAX": 200,
+    "RAPID_RERENDER_MAX": 300,
+    "BUTTON_CLICK_MAX": 100,
+    "INPUT_RESPONSE_MAX": 200,
+    "HOVER_RESPONSE_MAX": 300,
+    "FOCUS_MANAGEMENT_MAX": 250,
+    "LAZY_LOAD_MAX": 100,
+    "DYNAMIC_IMPORT_MAX": 150,
+    "LIFECYCLE_MAX": 500,
+    "CLEANUP_MAX": 50
+  }
+}
